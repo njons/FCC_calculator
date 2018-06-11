@@ -45,6 +45,7 @@ button {
 .display {
   display: grid;
   grid-column: 1 / 5;
+  overflow-y: hidden;
 }
 
 #input,
