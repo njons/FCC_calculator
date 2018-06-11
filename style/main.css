@@ -3,8 +3,8 @@ body {
   font-family: 'InputMonoEL', sans-serif;
   background-color: #F1E2D0;
   color: white;
-  font-size: 4vh;
   line-height: 30px;
+  font-size: 3vh;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -53,19 +53,17 @@ button {
   align-items: flex-end;
   justify-content: flex-end;
   padding-right: 2rem;
-  padding-bottom: 2rem;
+  padding-bottom: 3rem;
   display: flex;
-  /*background-color: #1B1B38;*/
 }
 
 #input {
   font-family: 'InputMonoEL', sans-serif;
-  font-size: 3vh;
   color: white;
 }
 
 #tot {
-  font-size: 7vh;
+  font-size: 9vh;
   color: #F7DF3E;
 }
 

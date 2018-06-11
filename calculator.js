@@ -10,8 +10,7 @@ console.log(buttons);
 let total = 0;
 let sumArr = [];
 let sum = 0;
-let typed = '';
-
+//let typed = '';
 
 
 buttons.forEach(button => {
@@ -19,16 +18,24 @@ buttons.forEach(button => {
     // typed input for the display
       //typed = this.innerText;
       if (button.className === "output"){
-        typed = this.innerText;
+        let typed = this.innerText;
         input.textContent += typed;
       }
 
-      sumArr.push(this.innerText);
-      console.log(sumArr);
-      sumArr.join("");
-
+        sumArr.push(this.innerText);
+        console.log(sumArr);
+        sumArr.join("");
       if (button.getAttribute("target") === "calc") {
         console.log('you clicked an operator');
+        if (sumArr[sumArr.length-2] === "+"||  sumArr[sumArr.length-2] === "-"
+         || sumArr[sumArr.length-2] === "*" || sumArr[sumArr.length-2] === "/") {
+          input.textContent = 'error: you clicked an operator twice';
+        }
+      } else if (button.id  === "decimal") {
+        console.log('you clicked the decimal');
+        if (sumArr[sumArr.length-2] === ".") {
+          input.textContent = 'error: you clicked the decimal twice';
+        }
       } else if (button.id === "equals") {
         console.log('you clicked the equal sign');
         sumArr.pop(sumArr.length-1)
