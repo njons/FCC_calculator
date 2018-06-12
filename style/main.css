@@ -15,6 +15,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background-color: white;
 }
 
 .calculator {
@@ -23,23 +24,22 @@ body {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
-  border: solid white 0.25vh;
+  grid-gap: 0.35vh;
 }
 
 button {
   font-size: 4vh;
   font-family: 'InputMonoMedium', sans-serif;
   color: white;
-  border: solid white 0.25vh;
   background-color: #1B1B26;
   cursor: pointer;
   outline: none;
+  border: none;
 }
 
 .output,
 .display {
   background-color: #1B1B26;
-  border: solid white 0.25vh;
 }
 
 .display {
