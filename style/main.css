@@ -16,7 +16,6 @@ body {
   justify-content: center;
   align-items: center;
   background-color: white;
-  border: solid white 0.25vh;
 }
 
 .calculator {
@@ -47,9 +46,6 @@ button {
   display: grid;
   grid-column: 1 / 5;
   overflow-y: hidden;
-  border-top: solid white 0.15vh;
-  border-left: solid white 0.15vh;
-  border-right: solid white 0.15vh;
 }
 
 #input,
