@@ -2,6 +2,8 @@
 # [FreeCodeCamp calculator challenge](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator/)
 This website was created as part of Front End Libraries certification one of the learning pathways at FreeCodeCamp. 
 
+![screenshot form site](https://github.com/njons/FCC_calculator/blob/master/calculator.png)
+
 ## Brief 
 The brief asked for a calculator similar to [this](https://codepen.io/freeCodeCamp/full/wgGVVX) example and the [project page](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-javascript-calculator/) had a 15-point feature list in your oen personal style.
 
