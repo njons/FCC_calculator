@@ -3,7 +3,7 @@ body {
   font-family: 'InputMonoEL', sans-serif;
   background-color: #F1E2D0;
   color: white;
-  line-height: 30px;
+  line-height: 1.1;
   font-size: 3vh;
   height: 100vh;
   display: flex;
@@ -53,9 +53,8 @@ button {
   grid-column: 1 / 5;
   align-items: flex-end;
   justify-content: flex-end;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
   display: flex;
+  padding-right: 2vh;
 }
 
 #input {
